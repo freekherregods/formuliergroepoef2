@@ -38,5 +38,5 @@ jobs:
         with:
           app-name: 'Freek'
           slot-name: 'Production'
-          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
+          package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}FormulierFunctions/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BECD73963A8E43CC9ABD7CE40B6E4170 }}
